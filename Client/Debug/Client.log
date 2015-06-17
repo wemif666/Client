@@ -1,0 +1,29 @@
+﻿Build started 2015-06-17 01:48:47.
+     1>Project "C:\Users\Przemysław\Desktop\Client\Client\Client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Client.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Client.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt Client.cpp ClientCon.cpp ClientDlg.cpp
+         ClientDlg.cpp
+         ClientCon.cpp
+     1>c:\users\przemysław\desktop\client\client\clientcon.cpp(51): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>c:\users\przemysław\desktop\client\client\clientcon.cpp(29): warning C4101: 'message' : unreferenced local variable
+         Client.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\Client.res" Client.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Przemysław\Desktop\Client\Debug\Client.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Przemysław\Desktop\Client\Debug\Client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Przemysław\Desktop\Client\Debug\Client.lib" /MACHINE:X86 Debug\Client.res
+         Debug\Client.obj
+         Debug\ClientCon.obj
+         Debug\ClientDlg.obj
+         Debug\stdafx.obj
+         Client.vcxproj -> C:\Users\Przemysław\Desktop\Client\Debug\Client.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"C:\Users\Przemysław\Desktop\Client\Debug\Client.bsc" /n Debug\Client.sbr Debug\ClientCon.sbr Debug\ClientDlg.sbr Debug\stdafx.sbr
+     1>Done Building Project "C:\Users\Przemysław\Desktop\Client\Client\Client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:48.65
